@@ -1,0 +1,46 @@
+.cards {
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+grid-gap: 8px;
+margin: 48px 0;
+}
+
+.card {
+        border-radius: 7px;
+        padding: 16px;
+        text-align: center;
+        width: 250px;
+        box-shadow: #0000006e 5px 0px 11px 0px;
+        justify-self: center;
+}
+
+.card img {
+        height: 175px;
+}
+
+@media (min-width:  580px) {
+        .cards {
+                grid-template-columns: 1fr 1fr;
+        }
+}
+
+@media (min-width: 1200px) {
+        .cards {
+                grid-template-columns: 1fr 1fr 1fr;
+        }
+}
+
+.card-story {
+        text-align: center;
+        background-image: url("../images/capoteplusieurs.jpeg");
+        padding: 24px 0;
+        color: white; 
+        margin: 24px auto;
+        width: 1400px;
+        border-radius: 7px;
+        opacity: 0.6;
+        background-position: center;
+        height: 250px;
+        background-attachment: fixed;
+        font-size: 20px;
+}

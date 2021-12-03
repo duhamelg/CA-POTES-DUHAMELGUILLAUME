@@ -1,0 +1,21 @@
+.button {
+        color: white;
+        background-color: #DAA520;
+        padding: 16px;
+        border-radius:6px ;
+        display: block;
+}
+.button-bonner {
+        color: white;
+        background-color: #CB6CD1;
+        padding: 16px;
+        border-radius:6px ;
+        display: block;
+        margin-top: 110px;
+
+
+}
+.form-button {
+        text-align: center;
+        margin: 16px 0;
+}
